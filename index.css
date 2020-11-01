@@ -10,7 +10,8 @@ body{
 
 .top{
     position:relative;
-    background-image: url("https://raw.githubusercontent.com/jonasschmedtmann/complete-javascript-course/master/6-budgety/final/back.png");
+    background-image: url("./images/background.jpg");
+    background-size: cover;
     height:300px;
 
 }
@@ -192,7 +193,7 @@ body{
 
 .del{
     position: relative;
-    background-image: url('delete.png');
+    /* background-image: url('./imagess/delte.png'); */
     float: right;
     top:13px;
     width: 20px;

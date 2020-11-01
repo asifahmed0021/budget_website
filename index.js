@@ -151,7 +151,7 @@ var uiController=(function(){
 
         addtotable:function(item,type){
             if(type==="exp"){
-                var htmlstring='<div class="entry" id= %id% ><h2 class="desc"> %desc% </h2><input type="image" src="delete.png" class="del" id="btn"></input><h2 class="valex"> %val% </h2></div>';
+                var htmlstring='<div class="entry" id= %id% ><h2 class="desc"> %desc% </h2><input type="image" src="./images/delete.png" class="del" id="btn"></input><h2 class="valex"> %val% </h2></div>';
                 var newhtmlstring;
                 newhtmlstring=htmlstring.replace('%desc%',item.description);
                 newhtmlstring=newhtmlstring.replace('%val%','$'+item.value);
@@ -163,7 +163,7 @@ var uiController=(function(){
             }
 
             else{
-                var htmlstring='<div class="entry" id=%id% ><h2 class="desc"> %desc% </h2><input type="image" src="delete.png" class="del" id="btn"></input><h2 class="valin"> %val% </h2></div>';
+                var htmlstring='<div class="entry" id=%id% ><h2 class="desc"> %desc% </h2><input type="image" src="./images/delete.png" class="del" id="btn"></input><h2 class="valin"> %val% </h2></div>';
                 var newhtmlstring;
                 newhtmlstring=htmlstring.replace('%desc%',item.description);
                 newhtmlstring=newhtmlstring.replace('%val%','$'+item.value);
